@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -9,7 +11,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.180497422288-n63hh6et9kfj4s8lphna71uhk5djt91f</string>
+				<string>com.googleusercontent.apps.315314117707-31hksme6ggett34atpqt0tar9rrj5kqf</string>
 			</array>
 		</dict>
 	</array>

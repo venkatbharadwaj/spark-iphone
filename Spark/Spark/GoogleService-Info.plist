@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>180497422288-n63hh6et9kfj4s8lphna71uhk5djt91f.apps.googleusercontent.com</string>
+	<string>315314117707-31hksme6ggett34atpqt0tar9rrj5kqf.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.180497422288-n63hh6et9kfj4s8lphna71uhk5djt91f</string>
+	<string>com.googleusercontent.apps.315314117707-31hksme6ggett34atpqt0tar9rrj5kqf</string>
 	<key>API_KEY</key>
-	<string>AIzaSyA4rCEV7NqBdQKLLn7YlWI2_EyfCobUGDA</string>
+	<string>AIzaSyAqcGR9QW_Tk1vDiGJkzIthCZepBQWSrwI</string>
 	<key>GCM_SENDER_ID</key>
-	<string>180497422288</string>
+	<string>315314117707</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>Nisum.Spark</string>
+	<string>com.Nisum.Spark</string>
 	<key>PROJECT_ID</key>
-	<string>spark-testing-372706</string>
+	<string>sparktest-f5883</string>
 	<key>STORAGE_BUCKET</key>
-	<string>spark-testing-372706.appspot.com</string>
+	<string>sparktest-f5883.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:180497422288:ios:8f39eceff15c5a89028bd5</string>
+	<string>1:315314117707:ios:6858dcc8972bc5b491c1ce</string>
 </dict>
 </plist>
