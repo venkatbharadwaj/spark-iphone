@@ -70,8 +70,7 @@ class MainViewController: UIViewController {
             self.sideMenuViewController.view.bottomAnchor.constraint(equalTo: view.bottomAnchor),
             self.sideMenuViewController.view.topAnchor.constraint(equalTo: view.topAnchor)
         ])
-        
-        // ...
+
         
         
         // Default Main View Controller

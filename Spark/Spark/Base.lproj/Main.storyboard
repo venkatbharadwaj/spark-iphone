@@ -710,20 +710,17 @@
                                                     <constraint firstAttribute="height" constant="45" id="8f9-Bd-ub2"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kn4-iu-5GJ">
                                                 <rect key="frame" x="359" y="8" width="40" height="40"/>
-                                                <color key="backgroundColor" white="0.54710471220000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="8ux-Ex-pZt"/>
                                                     <constraint firstAttribute="width" constant="40" id="uhi-yJ-kNM"/>
                                                 </constraints>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="M">
-                                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="20"/>
-                                                </buttonConfiguration>
+                                                <buttonConfiguration key="configuration" style="plain" image="favIcon"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M6F-eS-69A">
                                                 <rect key="frame" x="23" y="15" width="30" height="30"/>
@@ -916,6 +913,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="favIcon" width="30" height="30"/>
         <image name="menuIcon" width="30" height="30"/>
         <image name="parkingLocation" width="50" height="50"/>
         <image name="pencil" catalog="system" width="128" height="113"/>

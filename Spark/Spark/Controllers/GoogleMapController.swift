@@ -245,8 +245,13 @@ extension GoogleMapController: UICollectionViewDelegate, UICollectionViewDataSou
              gradientLayer.colors = [colorTop, colorBottom]
              gradientLayer.locations = [0.0, 0.5]
              gradientLayer.frame = self.view.bounds
-                     
-             cell.contentView.layer.insertSublayer(gradientLayer, at:0)
+                    
+          if cell.contentView.layer.sublayers?.count ?? 0 < 5 {
+              cell.contentView.layer.addSublayer(gradientLayer)
+          }
+          
+          
+            
 //          parkinglotLocationsCollectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
 
           return cell
@@ -279,6 +284,10 @@ extension GoogleMapController:UITextFieldDelegate{
         print(textField.text as? String ?? "")
         return true
     }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
+    }
 }
 
 
@@ -302,3 +311,5 @@ extension UIView {
         self.layer.insertSublayer(layer, above: self.layer)
     }
 }
+
+
